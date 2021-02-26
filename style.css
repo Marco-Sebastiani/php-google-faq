@@ -2,4 +2,104 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    width: 100vw;
+}
+
+header{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+header a{
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.header-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+.header-top .box-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+
+.header-top a img{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.header-top a i{
+    margin-right: 20px;
+}
+
+
+.box-icon img{
+    margin: 20px;
+}
+
+
+.header-top .box-icon{
+    display: flex;
+    align-items: center;
+}
+
+.header-top .box-icon .profile{
+    background-color: #2962ff;
+    border-radius: 50%;
+    width: 30px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.header-top .box-icon .profile a{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.header-bottom{
+    width: 100%;
+    padding: 10px 25px;
+}
+
+
+.header-bottom ul.flex{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header-bottom ul li{
+    margin-right: 30px;
+}
+
+.header-bottom ul li a.blue{
+    color: #3367d6;
+    border-bottom: 4px solid #3367d6;
+    padding: 7px 0;
+}
+
+main{
+    margin-top: 150px;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    text-align: justify;
 }
