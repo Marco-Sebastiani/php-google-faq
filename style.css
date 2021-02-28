@@ -103,6 +103,15 @@ main p span{
     cursor: pointer;
     
 }
+
+main ol {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+main ol li{
+    margin: 20px 0;
+}
 /* /MAIN */
 
 /* FOOTER */
